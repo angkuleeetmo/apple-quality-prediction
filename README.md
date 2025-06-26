@@ -93,9 +93,17 @@ This section explains how you can get a local copy of this project up and runnin
    ```sh
    source venv/bin/activate
    ```
+3. **Install the required packages:**
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. **Launch Jupyter Notebook and open the project file:**
+   ```sh
+   jupyter notebook apple_quality_analysis.ipynb
+   ```
 
 
-
+   
 
 
 
