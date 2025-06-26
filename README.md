@@ -77,3 +77,27 @@ This section explains how you can get a local copy of this project up and runnin
    ```sh
    git clone https://github.com/YOUR_USERNAME/apple-quality-prediction.git
    cd apple-quality-prediction
+2. **Create and activate a virtual environment (recommended):**
+   ```sh
+   # For Windows
+   python -m venv venv
+   venv\Scripts\activate
+   
+   # For macOS/Linux
+   python3 -m venv venv
+   source venv/bin/activate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
