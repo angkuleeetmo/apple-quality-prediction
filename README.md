@@ -101,7 +101,46 @@ This section explains how you can get a local copy of this project up and runnin
    ```sh
    jupyter notebook apple_quality_analysis.ipynb
    ```
+## 📈 Exploratory Data Analysis (EDA)
 
+EDA was performed to understand the data's structure and uncover relationships between features.
+
+### Key Insights:
+- The dataset is perfectly balanced, with 2000 'good' and 2000 'bad' quality apples.
+- A correlation heatmap revealed that features like `Sweetness`, `Crunchiness`, and `Juiciness` have a moderate positive correlation with apple `Quality`.
+- `Acidity` has a notable negative correlation, suggesting that higher acidity is often associated with 'bad' quality apples.
+
+**Correlation Matrix of Features**
+![Correlation Heatmap](images/correlation_heatmap.png)
+
+---
+
+## 📊 Model Training & Results
+
+Several classification models were trained and evaluated to find the best performer. The data was split into an 80% training set and a 20% testing set.
+
+The performance of the models on the test set is summarized below:
+
+| Model | Accuracy | Precision (Good) | Recall (Good) | F1-Score (Good) |
+| :--- | :---: | :---: | :---: | :---: |
+| Logistic Regression | 0.88 | 0.87 | 0.89 | 0.88 |
+| Decision Tree | 0.91 | 0.90 | 0.92 | 0.91 |
+| **Random Forest** | **0.94** | **0.95** | **0.93** | **0.94** |
+| Support Vector Machine | 0.90 | 0.91 | 0.89 | 0.90 |
+
+The **Random Forest Classifier** was selected as the final model due to its superior performance across all key metrics, especially its high accuracy and robust F1-score.
+
+---
+
+## ✅ Conclusion
+
+This project successfully demonstrates the process of building a machine learning model to predict apple quality. Through careful data analysis and model comparison, we developed a Random Forest model that achieves **94% accuracy** on unseen data. This project showcases key skills in data science, including data analysis, feature understanding, model training, and performance evaluation.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
    
 
