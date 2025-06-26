@@ -82,11 +82,15 @@ This section explains how you can get a local copy of this project up and runnin
    # For Windows
    ```sh
    python -m venv venv
+   ```
+   ```sh
    venv\Scripts\activate
    ```
    # For macOS/Linux
    ```sh
    python3 -m venv venv
+   ```
+   ```sh
    source venv/bin/activate
    ```
 
