@@ -1,4 +1,4 @@
-# Apple Quality Prediction
+# Apple Quality Prediction - Jovs / CS Elective 4
 Made for my  Data Science Portfolio Project requirement.
 
 A machine learning project to classify apple quality ('good' or 'bad') based on a set of physical and chemical attributes. This project was developed as a data science portfolio piece to demonstrate a complete workflow from data exploration to model evaluation.
