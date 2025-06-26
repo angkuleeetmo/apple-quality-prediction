@@ -10,8 +10,6 @@ Made for my  Data Science Portfolio Project requirement.
 A machine learning project to classify apple quality ('good' or 'bad') based on a set of physical and chemical attributes. This project was developed as a data science portfolio piece to demonstrate a complete workflow from data exploration to model evaluation.
 
 ![Apple Banner](https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1600)
-
-![Apple Banner2]([https://unsplash.com/photos/assorted-color-car-lot-48lEHdLa-nQ](https://images.unsplash.com/photo-1545609904-f2f11654638d?q=80&w=1929&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D))
 *Photo by [Shelley Pauls](https://unsplash.com/@shelleypauls) on Unsplash*
 
 ---
